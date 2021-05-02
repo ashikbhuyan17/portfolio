@@ -24,7 +24,7 @@ const Project = () => {
                                         <div class="modal-dialog">
                                             <div class="modal-content border-none">
                                                 <div class="modal-header  border-none">
-                                                    <h5 class="modal-title  border-none" id="exampleModalLabel">Project Name: </h5>
+                                                    <h5 class="modal-title  border-none" id="exampleModalLabel">Project Name: Unrealistic Photography</h5>
                                                     <button type="button  border-none" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body  border-none">
@@ -78,7 +78,7 @@ const Project = () => {
                                         <div class="modal-dialog">
                                             <div class="modal-content border-none">
                                                 <div class="modal-header  border-none">
-                                                    <h5 class="modal-title  border-none" id="exampleModalLabel">Project Name: </h5>
+                                                    <h5 class="modal-title  border-none" id="exampleModalLabel">Project Name: ajker-bazar </h5>
                                                     <button type="button  border-none" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body  border-none">
