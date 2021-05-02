@@ -1,0 +1,11 @@
+.resume-background{
+    background: url(../../images/bg.jpg)no-repeat  top center ;
+    background-size: cover;
+    padding: 100px 0;
+   
+
+}
+
+.bg{
+    background: linear-gradient(0deg, #232526 0%, #414345 100%)
+}
