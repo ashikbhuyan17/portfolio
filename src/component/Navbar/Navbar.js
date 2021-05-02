@@ -85,12 +85,11 @@ const Navbar = () => {
          </p> */}
             <div className="social-icon d-flex">
               <p >
+                <a href="https://github.com/ashikbhuyan17"><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="https://www.linkedin.com/in/ashik17/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https://www.facebook.com/ashikbhuyan17/"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="https://twitter.com/bhuyan_asik"><FontAwesomeIcon icon={faTwitter} /></a>
 
-
-                <a href=""><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
-                <a href=""><FontAwesomeIcon icon={faGithub} /></a>
               </p>
             </div>
             <div className="download-my-cv">
