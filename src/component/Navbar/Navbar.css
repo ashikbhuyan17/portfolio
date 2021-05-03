@@ -3,6 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+span.padding-need-typeWriter {
+    padding: 0 20px;
+    color: #fafafa!important;
+}
+h3.customize {
+    /* font-size: 60px; */
+    display: -webkit-flex;
+    display: flex;
+}
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    background: rgba(255,254,254,.8);
+    padding: 19px;
+    display: inline-block;
+    border-radius: 36px;
+}
 ul.navbar-nav.menual-customize {
     margin-left: auto;
 }
@@ -163,7 +184,7 @@ ul.menual-customize li a {
     }
     .text h3 span{
       
-        color: #ff320d;
+        color: red;
     }
     .text h3 {
         font-weight: 800;

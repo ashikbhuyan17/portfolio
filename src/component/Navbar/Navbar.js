@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faRegistered } from '@fortawesome/free-solid-svg-icons';
 import { faAutoprefixer, faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import Typical from 'react-typical'
+import Typewriter from 'typewriter-effect';
 
 
 const Navbar = () => {
@@ -68,17 +68,13 @@ const Navbar = () => {
           <div className="need-padding " >
             {/* <h5 className='pt-5'>Welcome To My World</h5> */}
             <h3 >I'm <span>Ashik</span></h3>
-            <h3 className='customize'> I'm <span className='ml-4 text-light'> A </span>
-              <Typical
-                loop={Infinity}
-                steps={[
-                  'Web Developer', 2000,
-                  'Web Designer', 2000,
-                  'React JS Developer', 2000,
-                  'Javascript Developer', 2000,
-                ]}
-                wrapper="b"
-              />
+            <h3 className='customize'> I'm <span className='padding-need-typeWriter'>A</span>
+              <Typewriter
+                options={{
+                  strings: ['Web Designer', 'Web Developer', 'React JS Developer', 'Javascript Developer'],
+                  autoStart: true,
+                  loop: true,
+                }} />
             </h3>
             {/* <p>Web Desing & Development is my passion ,  Always I Do Hard Work To Make it Success <br/>
          I Always Try To Make  Something Better Than Others.

@@ -7,6 +7,7 @@ import ContactForm from '../Contact/ContactForm'
 import Skill from '../Skill/Skill';
 import Blog from '../Blog/Blog';
 import Project from '../Project/Project';
+import Top from '../TopButton/Top';
 const HaederManagement = () => {
     return (
         <div>
@@ -21,6 +22,7 @@ const HaederManagement = () => {
             <Project />
             <Blog />
             <ContactForm />
+            {/* <Top /> */}
 
         </div>
     );
