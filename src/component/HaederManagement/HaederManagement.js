@@ -8,6 +8,7 @@ import Skill from '../Skill/Skill';
 import Blog from '../Blog/Blog';
 import Project from '../Project/Project';
 import Top from '../TopButton/Top';
+import ScrollToTop from 'react-scroll-to-top';
 const HaederManagement = () => {
     return (
         <div>
@@ -23,6 +24,7 @@ const HaederManagement = () => {
             <Blog />
             <ContactForm />
             {/* <Top /> */}
+            <ScrollToTop smooth color="black" style={{ backgroundColor: "rgb(218, 202, 202)" }} />
 
         </div>
     );
